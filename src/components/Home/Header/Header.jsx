@@ -1,6 +1,7 @@
 import React from "react";
-import "./Header.css"
+import "./Header.css";
 import Link from "next/link";
+import NavLink from "@/components/NavLink/NavLink";
 const Header = () => {
     return (
         <header className="header">
@@ -23,39 +24,33 @@ const Header = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto gap-2">
                             <li className="nav-item">
-                                <Link className="nav-link active" aria-current="page" href="#">
-                                    Home
-                                </Link>
+                                <NavLink href="/">Home</NavLink>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" href="#">
-                                    Why Samaro
-                                </Link>
+                                <NavLink href="/why-samaro">Why Samaro</NavLink>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" href="#">
-                                    Product
-                                </Link>
+                                <NavLink href="/product">Product</NavLink>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" href="#">
+                                <NavLink href="inspiration">
                                     Inspiration
-                                </Link>
+                                </NavLink>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" href="#">
+                                <NavLink className="nav-link" href="#">
                                     Contact Us
-                                </Link>
+                                </NavLink>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" href="#">
+                                <NavLink className="nav-link" href="#">
                                     Newsletter
-                                </Link>
+                                </NavLink>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" href="#">
+                                <NavLink className="nav-link" href="#">
                                     Career
-                                </Link>
+                                </NavLink>
                             </li>
                         </ul>
                     </div>

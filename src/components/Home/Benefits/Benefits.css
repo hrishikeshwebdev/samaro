@@ -43,4 +43,27 @@
 .full-width-image {
   display: none;
 }
+
+@media only screen and (max-width: 768px) {
+  .benefits > .row {
+    flex-direction: column-reverse !important;
+  }
+  .benefits .rightside-image {
+    display: none !important;
+  }
+
+  .benefits .heading {
+    display: none !important;
+  }
+  .heading-container {
+    display: block;
+    padding-bottom: 20px;
+    padding-top: 100px;
+  }
+  .benefits {
+    padding-block: 0 !important;
+    padding-bottom: 100px !important;
+  }
+}
+
 /* Benefits */

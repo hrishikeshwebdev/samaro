@@ -109,6 +109,9 @@ p a:hover {
 .bg-primary {
   background: var(--text) !important;
 }
+.bg-navy {
+  background: var(--text) !important;
+}
 
 .bg-secondary {
   background: var(--secondary) !important;
