@@ -59,3 +59,10 @@
     display: none;
   }
 }
+.inner-row-one {
+  border-top-right-radius: 100px !important;
+  border-bottom-right-radius: 100px !important;
+}
+
+.inner-row-two {
+}

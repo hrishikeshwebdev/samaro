@@ -4,7 +4,7 @@
 }
 
 .design .sub-heading {
-  font-weight: 300;
+  font-weight: 300 !important;
 }
 
 .design .sub-heading span {
@@ -14,13 +14,15 @@
 .design .col-lg-4 {
   overflow: hidden;
 }
-.design .col-lg-4 img {
-  transition: all 0.3s ease;
+
+.design-img {
+  transition: all 0.3s ease-in-out;
   object-fit: cover;
 }
 
-.design .col-lg-4 img:hover {
-  scale: 1.2;
+.design-img:hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
 }
 
 .design .no-gap {

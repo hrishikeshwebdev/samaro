@@ -1,13 +1,13 @@
 import React from "react";
 import "./Header.css";
 import Link from "next/link";
-import NavLink from "@/components/NavLink/NavLink";
+import NavLink from "@/components/helpers/NavLink/NavLink";
 const Header = () => {
     return (
         <header className="header">
             <nav className="navbar navbar-expand-lg">
                 <div className="container">
-                    <Link className="navbar-brand" href="./index.html">
+                    <Link className="navbar-brand" href="/">
                         <img src="/assets/images/logo/main-logo.png" alt="" />
                     </Link>
                     <button

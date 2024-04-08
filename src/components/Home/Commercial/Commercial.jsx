@@ -17,13 +17,13 @@ const Commercial = () => {
                         <div id="carouselExampleFade" className="carousel slide carousel-fade">
                             <div className="carousel-inner">
                                 <div className="carousel-item active">
-                                    <img src="/assets/images/home/commercial/1.jpg" className="d-block w-100" alt="..." />
+                                    <img src="/assets/images/home/commercial/1.jpg" className="d-block w-100" />
                                 </div>
                                 <div className="carousel-item">
-                                    <img src="/assets/images/home/commercial/2.jpg" className="d-block w-100" alt="..." />
+                                    <img src="/assets/images/home/commercial/2.jpg" className="d-block w-100" />
                                 </div>
                                 <div className="carousel-item">
-                                    <img src="/assets/images/home/commercial/1.jpg" className="d-block w-100" alt="..." />
+                                    <img src="/assets/images/home/commercial/1.jpg" className="d-block w-100" />
                                 </div>
                             </div>
                             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"

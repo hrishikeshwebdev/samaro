@@ -9,7 +9,7 @@
   padding-block: 100px;
 }
 .benefits h2 {
-  font-weight: 400;
+  /* font-weight: 400; */
 }
 .benefit-box span {
   color: var(--text);

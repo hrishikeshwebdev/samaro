@@ -9,7 +9,8 @@ const Banner = () => {
                     <div className="col-lg-7 mx-auto">
                         <h2 className="heading">
                             Premium vinyl, <span>SPC, & LVT</span> flooring of
-                            <span>superior quality.</span>
+                            &nbsp;
+                            <span>superior<br /> quality.</span>
                         </h2>
                         <a href="#" className="button d-inline-block mt-3">
                             Discover all our floors

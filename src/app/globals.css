@@ -117,6 +117,10 @@ p a:hover {
   background: var(--secondary) !important;
 }
 
+.bg-red{
+  background: var(--primary) !important;
+}
+
 /* Color */
 .text-primary {
   color: var(--primary) !important;
@@ -142,13 +146,7 @@ p a:hover {
 
 /* Headings */
 
-.sub-heading {
-  font-size: 30px;
-  font-family: var(--sub-heading);
-  font-weight: 800;
-  color: var(--text);
-  letter-spacing: 1px;
-}
+
 
 .tertiary-heading {
   font-size: 18px;
